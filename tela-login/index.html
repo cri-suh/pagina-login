@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela login</title>
+</head>
+<body>
+    
+    <header>
+        <div class="center">
+            <div class="logo">
+               <h2>Facebook</h2> 
+            </div><!--logo-->
+            <form method="post" class="form-login">
+                <div class="form-input">
+                    <p>Email ou telefone</p>
+                    <input type="email" />
+                </div><!--form-input1-->
+                <div class="form-input">
+                    <p>Senha</p>
+                    <input type="password" />
+                </div><!--form-input2-->
+                <div class="form-input">
+                    <input type="submit" name="acao" value="Enviar" />
+                </div><!--form-input3-->
+            </form><!--form-login-->
+            <div class="clear"></div>
+        </div><!--center-->
+    </header>
+
+    <section class="main">
+        <div class="center">
+            <div class="img-pessoas">
+                <img src="foto-tec.png" alt="img-tec" />
+            </div><!--img-pessoas-->
+
+            <div class="abrir-conta">
+                <h2>Abra sua conta</h2>
+                <h3>É gratuito e sempre será!</h3>
+            <form method="post" class="criar-conta">
+                <div class="w50">
+                    <input type="text" placeholder="Nome" />
+                </div>
+                <div class="w50">
+                    <input type="text" placeholder="Sobrenome" />
+                </div>
+                <div class="w100">
+                    <input type="email" placeholder="Celular ou email" />
+                </div>
+                <div class="w100">
+                    <input type="password" placeholder="Senha" />
+                </div>
+                <div class="w100">
+                    <h2>Dia de nascimento</h2>
+                    <select class="nascimento">
+                        <option value="1">1</option>
+                    </select>
+                    <select class="nascimento">
+                        <option value="0">março</option>
+                    </select>
+                    <select class="nascimento">
+                        <option value="0">1998</option>
+                    </select>
+                    <div class="clear"></div>
+                <div class="w100">
+                    <div class="input-radios">
+                        <input type="radio" value="masculino">
+                        <h2>Masculido</h2>
+                    </div>
+                    <div class="input-radios">
+                        <input type="radio" value="feminino">
+                        <h2>Feminino</h2>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                    
+                <div class="w100">
+                    <input type="submit" name="acao" value="Enviar" />
+                </div>
+            </form><!--criar-conta-->
+            </div><!--abrir-conta-->
+        </div><!--center-->
+        <div class="clear"></div>
+    </section><!--main-->
+    
+</body>
+</html>
